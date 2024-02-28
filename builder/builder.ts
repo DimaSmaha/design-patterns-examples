@@ -1,3 +1,13 @@
+/**
+ * In general we would use builder to create and construct some
+ * hard objects. generally in API tests.
+ * Beacuse u have some body and a lot of possible combinations of body u can send
+ * To make it easier for u to get this different bodys we are creating builder
+ * Where basically we specify all mandatory and not mandatory fields which will
+ * help us to create different object, whatever we want, very fast and reliable
+ *
+ */
+
 // Analyze your body and create an interface
 // set ? for optional
 // {
