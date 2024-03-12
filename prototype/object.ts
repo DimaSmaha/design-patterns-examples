@@ -43,32 +43,32 @@ export class UserData implements IUserData {
       data.friends != undefined ? data.friends : this.friends
     );
   }
-
-  // copyObject(
-  //   name?: string,
-  //   surname?: string,
-  //   age?: number,
-  //   favGame?: string,
-  //   friends?: string[]
-  // ) {
-  //   name != undefined ? this.name == name : (name = this.name);
-  //   surname != undefined ? this.surname == surname : (surname = this.surname);
-  //   age != undefined ? this.age == age : (age = this.age);
-  //   favGame != undefined ? this.favGame == favGame : (favGame = this.favGame);
-  //   friends != undefined ? this.friends == friends : (friends = this.friends);
-
-  //   return new UserData(name, surname, age, favGame, friends);
-
-  //   // without calling an object, we can jsut create a structured clone
-
-  //   // let copiedObject = structuredClone({
-  //   //   name,
-  //   //   surname,
-  //   //   age,
-  //   //   favGame,
-  //   //   friends,
-  //   // });
-
-  //   // return copiedObject;
-  // }
 }
+
+// copyObject(
+//   name?: string,
+//   surname?: string,
+//   age?: number,
+//   favGame?: string,
+//   friends?: string[]
+// ) {
+//   name != undefined ? this.name == name : (name = this.name);
+//   surname != undefined ? this.surname == surname : (surname = this.surname);
+//   age != undefined ? this.age == age : (age = this.age);
+//   favGame != undefined ? this.favGame == favGame : (favGame = this.favGame);
+//   friends != undefined ? this.friends == friends : (friends = this.friends);
+
+//   return new UserData(name, surname, age, favGame, friends);
+
+//   // without calling an object, we can jsut create a structured clone
+
+//   // let copiedObject = structuredClone({
+//   //   name,
+//   //   surname,
+//   //   age,
+//   //   favGame,
+//   //   friends,
+//   // });
+
+//   // return copiedObject;
+// }
