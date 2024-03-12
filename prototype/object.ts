@@ -1,3 +1,11 @@
+/**
+ * Prototype is used to get a copy of base element and
+ * change 1 or 2 parameters inside.
+ * For eg if u have complex API body, and u need to change only
+ * few parameters inside. You can just use a prototyping,
+ * and change the params u actually need
+ */
+
 interface IUserData {
   name: string;
   surname: string;
