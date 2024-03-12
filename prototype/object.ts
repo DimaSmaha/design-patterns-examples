@@ -39,14 +39,18 @@ export class UserData implements IUserData {
     favGame != undefined ? this.favGame == favGame : (favGame = this.favGame);
     friends != undefined ? this.friends == friends : (friends = this.friends);
 
-    let copiedObject = structuredClone({
-      name,
-      surname,
-      age,
-      favGame,
-      friends,
-    });
+    return new UserData(name, surname, age, favGame, friends);
 
-    return copiedObject;
+    // without calling an object, we can jsut create a structured clone
+
+    // let copiedObject = structuredClone({
+    //   name,
+    //   surname,
+    //   age,
+    //   favGame,
+    //   friends,
+    // });
+
+    // return copiedObject;
   }
 }

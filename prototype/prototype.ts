@@ -13,12 +13,14 @@ console.log(typeof originalObject);
 
 let copiedObject1 = originalObject.copyObject("Robert", undefined, 31);
 let copiedObject2 = originalObject.copyObject(
-  "Robert",
+  "Jason",
   undefined,
-  31,
+  35,
   undefined,
   ["Alexa"]
 );
+let copiedObject3 = originalObject.copyObject(undefined, "Rass");
 console.log(copiedObject1);
 console.log(copiedObject2);
+console.log(copiedObject3);
 console.log(originalObject);
