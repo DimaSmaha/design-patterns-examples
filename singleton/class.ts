@@ -16,4 +16,6 @@ export class RandomNumber {
     }
     return RandomNumber.randomNumber;
   }
+
+  // also additionaly we can use this.randomNumber, in both cases its correct
 }
