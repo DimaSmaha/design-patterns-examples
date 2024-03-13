@@ -18,4 +18,5 @@ export class RandomNumber {
   }
 
   // also additionaly we can use this.randomNumber, in both cases its correct
+  // but i guess for me its better to call randomNumber via class
 }
