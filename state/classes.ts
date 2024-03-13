@@ -1,6 +1,6 @@
 /**
  * We use state pattern in case we have a lot of similar functionality
- * or lets actions, and in order to not use else if, or not to create a lot of different fuctions
+ * or some actions, and in order to not use else if, or not to create a lot of different fuctions
  * we can create a state pattern, bassically it could be used in the tests, where u can have
  * some different actions on the pages, or simply some different user states.
  * This will allow you to reduce your code usage and simply make some specific set of actions just by few lines of code
