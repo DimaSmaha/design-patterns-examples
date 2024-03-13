@@ -12,7 +12,6 @@ export class LoggedInState implements UserState {
     console.log(
       "im checKing that im on the profile page to continue test execution"
     );
-    console.log("====================================");
   }
 }
 
@@ -27,7 +26,6 @@ export class LoggedOutState implements UserState {
     console.log(
       "im checKing that im on the profile page to continue test execution"
     );
-    console.log("====================================");
   }
 }
 
@@ -42,7 +40,6 @@ export class NotRegisteredState implements UserState {
     console.log(
       "im checking that im on the profile page to continue test execution"
     );
-    console.log("====================================");
   }
 }
 
@@ -61,13 +58,11 @@ export class UserStateExecution implements UserState {
     this.state = state;
     console.log("====================================");
     console.log(`The state was changed to ${this.state}`);
-    console.log("====================================");
   }
 
   getCurrentState() {
     console.log("====================================");
     console.log(`The current state is ${this.state}`);
-    console.log("====================================");
   }
 }
 
