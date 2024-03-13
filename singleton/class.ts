@@ -8,7 +8,7 @@
 
 export class RandomNumber {
   private static randomNumber: any;
-  private constructor() {}
+  private constructor() {} // if you wont create any new object with this class, u can get rid from  the constructor
 
   public static getRandomNumber() {
     if (RandomNumber.randomNumber == null) {
