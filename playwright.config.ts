@@ -6,6 +6,8 @@ const config: PlaywrightTestConfig = {
   // testDir: "./v2/chain-of-invocation/qa",
   // testDir: "./v2/buider/qa",
   // testDir: "./v2/delegate/qa",
+  // testDir: "./v2/singletone/qa",
+  // testDir: "./v2/facade/qa",
 
   timeout: 300000,
   expect: {
