@@ -3,7 +3,10 @@ import { devices } from "@playwright/test";
 
 const config: PlaywrightTestConfig = {
   // testDir: "./v2/dto/qa",
-  testDir: "./v2/chain-of-invocation/qa",
+  // testDir: "./v2/chain-of-invocation/qa",
+  // testDir: "./v2/buider/qa",
+  // testDir: "./v2/delegate/qa",
+
   timeout: 300000,
   expect: {
     timeout: 5000,
