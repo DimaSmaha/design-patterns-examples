@@ -22,10 +22,10 @@ export class CarBuilder {
   }
 
   build() {
-    if (this.car.name !== "" && this.car.doors !== 0) {
+    if (this.car.name !== "" || this.car.doors !== 0) {
       console.log("OBJECT BUILD SUCCESSFULLY");
       console.log(`${JSON.stringify(this.car)}`);
-      return this;
+      return this.car;
     }
     console.log("SOME STUFF IS MISSING");
     console.log(`${JSON.stringify(this.car)}`);
