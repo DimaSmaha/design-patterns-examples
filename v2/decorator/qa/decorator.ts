@@ -12,6 +12,8 @@ export class Decorator {
     this.loginPage = new LoginPage(page);
   }
 
+  // Basically we are expanding already written methods
+  // We can do it either by writing the function with already existing method
   async clickLoginWithVerification() {
     await expect(await this.loginPage.loginButton()).toBeVisible();
     await expect(await this.loginPage.loginButton()).toHaveText("Login");
@@ -19,6 +21,7 @@ export class Decorator {
     return this;
   }
 
+  // Or to pass a locatotr and expand a function by yourself
   async clickLoginWithVerificationLocator() {
     await expect(this.page.locator(this.element)).toBeVisible();
     await expect(this.page.locator(this.element)).toHaveText("Login");
