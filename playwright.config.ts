@@ -10,6 +10,7 @@ const config: PlaywrightTestConfig = {
   // testDir: "./v2/facade/qa",
   // testDir: "./v2/decorator/qa",
   // testDir: "./v2/factory/qa",
+  testDir: "./v2/factory/qa2",
 
   timeout: 300000,
   expect: {
