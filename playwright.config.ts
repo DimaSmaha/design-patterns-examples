@@ -8,7 +8,8 @@ const config: PlaywrightTestConfig = {
   // testDir: "./v2/delegate/qa",
   // testDir: "./v2/singletone/qa",
   // testDir: "./v2/facade/qa",
-  testDir: "./v2/decorator/qa",
+  // testDir: "./v2/decorator/qa",
+  testDir: "./v2/factory/qa",
 
   timeout: 300000,
   expect: {
