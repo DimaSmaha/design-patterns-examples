@@ -3,7 +3,7 @@ import { PersonDTO } from "../../dto/qa/person.dto";
 
 const usernameInput = '[data-test="username"]';
 const passwordInput = '[data-test="password"]';
-const loginButton = '[data-test="login-button"]';
+export const loginButton = '[data-test="login-button"]';
 
 export class LoginPage {
   readonly page: Page;
