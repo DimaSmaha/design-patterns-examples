@@ -26,17 +26,17 @@ export class LoginPage {
     return this;
   }
 
-  async dFill(str: string) {
+  async elFill(str: string) {
     await this.locator.fill(str);
     return this;
   }
 
-  async dClick() {
+  async elClick() {
     await this.locator.click();
     return this;
   }
 
-  async dIsVisible() {
+  async elIsVisible() {
     await expect(this.locator).toBeVisible();
     return this;
   }

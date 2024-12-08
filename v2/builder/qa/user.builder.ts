@@ -4,6 +4,8 @@
  *
  * Also you can use faker for the data generation in Builder
  * Or have a preset data generation, but it rather be DTO
+ *
+ * Generally i believe in the most cases DTO would be enough
  */
 export interface User {
   userName: string;
