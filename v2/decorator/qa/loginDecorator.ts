@@ -1,5 +1,6 @@
 import { expect, Locator } from "@playwright/test";
 
+//** Passing a state of current locator, and reuse extended methods */
 export class LoginDecorator {
   locator: Locator;
   constructor(locator: Locator) {

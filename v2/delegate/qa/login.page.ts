@@ -13,7 +13,10 @@ export class LoginPage {
     this.buttons = new ButtonComponent(page);
   }
 
-  // used to pass some specific or generic logic without any inheritance
+  /**
+   * used to pass some specific or generic logic to another without any inheritance
+   *
+   */
 
   async goto() {
     await this.page.goto("");
