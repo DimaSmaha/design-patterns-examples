@@ -1,8 +1,8 @@
 import { Page } from "@playwright/test";
 import { PersonDTO } from "../../dto/qa/person.dto";
 
-const usernameInput = '[data-test="username"]';
-const passwordInput = '[data-test="password"]';
+export const usernameInput = '[data-test="username"]';
+export const passwordInput = '[data-test="password"]';
 export const loginButton = '[data-test="login-button"]';
 
 export class LoginPage {
@@ -11,6 +11,12 @@ export class LoginPage {
     this.page = page;
   }
 
+  async getLocator(el: string) {
+    return this.page.locator(el);
+  }
+  usernameInput = async () => await this.getLocator(usernameInput);
+  passwordInput = async () => await this.getLocator(passwordInput);
+  loginBtn = async () => await this.getLocator(loginButton);
   // used to pass some specific or generic logic without any inheritance
 
   async goto() {
