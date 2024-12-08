@@ -1,11 +1,9 @@
-import { expect, Locator, Page } from "@playwright/test";
-import { User, UserBuilder } from "./user.builder";
+import { Page } from "@playwright/test";
+import { User } from "./user.builder";
 
 const usernameInput = '[data-test="username"]';
 const passwordInput = '[data-test="password"]';
 const loginButton = '[data-test="login-button"]';
-const error = '[data-test="error"]';
-const item = '[id="item_4_title_link"]';
 
 export class LoginPage {
   readonly page: Page;

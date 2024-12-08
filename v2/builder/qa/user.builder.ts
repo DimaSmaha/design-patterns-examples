@@ -1,3 +1,10 @@
+/**
+ * We use Builder, to create an objects
+ * with some specific structure from the scratch
+ *
+ * Also you can use faker for the data generation in Builder
+ * Or have a preset data generation, but it rather be DTO
+ */
 export interface User {
   userName: string;
   password: string;
