@@ -1,4 +1,4 @@
-import { Person } from "../qa/person.dto";
+import { Person } from "../../dto/qa/person.dto";
 import { expect, Page } from "@playwright/test";
 
 const usernameInput = '[data-test="username"]';
