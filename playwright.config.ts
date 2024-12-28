@@ -6,12 +6,17 @@ const config: PlaywrightTestConfig = {
   // testDir: "./v2/chain-of-invocation/qa",
   // testDir: "./v2/buider/qa",
   // testDir: "./v2/delegate/qa",
-  // testDir: "./v2/singletone/qa",
+  // testDir: "./v2/singleton/qa",
   // testDir: "./v2/facade/qa",
   // testDir: "./v2/decorator/qa",
   // testDir: "./v2/factory/qa",
   // testDir: "./v2/factory/qa2",
   // testDir: "./v2/page-object-components/qa",
+  // testDir: "./v2/loadable-component/qa",
+  // testDir: "./v2/state/qa",
+  // testDir: "./v2/prototype/qa",
+  // testDir: "./v2/assert-class/qa",
+  // testDir: "./v2/strategy/qa",
 
   timeout: 300000,
   expect: {
