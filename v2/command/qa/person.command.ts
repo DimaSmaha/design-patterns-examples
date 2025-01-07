@@ -1,3 +1,5 @@
+//** Probably stupid example but I really dont have any mood to create something other*/
+
 export interface IPerson {
   username: string;
   password: string;
