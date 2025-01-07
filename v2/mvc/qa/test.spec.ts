@@ -1,8 +1,16 @@
-import { test } from "@playwright/test";
+import { test, defineConfig } from "@playwright/test";
 import { UsersController } from "./controllers/users.controller";
 import { createSingleUserSchema, getSingleUserSchema } from "./dtos/users.dto";
-
+// ** This tests have separate config
 test.describe("Test API", () => {
+  test.use({
+    baseURL: "https://reqres.in/",
+    extraHTTPHeaders: {
+      "Content-Type": "application/json",
+      Accept: `application/json`,
+    },
+  });
+
   test("Test GET Requests", async ({ page }) => {
     let users = new UsersController(page);
 
