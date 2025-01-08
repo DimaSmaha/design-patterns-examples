@@ -18,24 +18,4 @@ export class LoginPage {
   async goto() {
     await this.page.goto("");
   }
-
-  async fillUsername(personDTO: Person) {
-    await this.page.locator(usernameInput).fill(personDTO.username);
-  }
-
-  async fillPassword(personDTO: Person) {
-    await this.page.locator(passwordInput).fill(personDTO.password);
-  }
-
-  async clickLogin() {
-    await this.page.locator(loginButton).click();
-  }
-
-  async errorIsVisible() {
-    await expect(this.page.locator(error)).toBeVisible();
-  }
-
-  async inventoryIsVisible() {
-    await expect(this.page.locator(item)).toBeVisible();
-  }
 }

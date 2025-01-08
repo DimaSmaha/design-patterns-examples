@@ -6,7 +6,6 @@ export const usernameInput = '[data-test="username"]';
 export const passwordInput = '[data-test="password"]';
 export const loginButton = '[data-test="login-button"]';
 export const error = '[data-test="error"]';
-const item = '[id="item_4_title_link"]';
 
 export interface ILoginPage {
   goto(): Promise<void>;
